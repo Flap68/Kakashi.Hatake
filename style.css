@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Anton", sans-serif;
+}
+
+/* Logo ================================================================ */
+
+header {
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow-x: auto
+}
+
+header h1 {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    margin-left: 2rem;
+    display: flex;
+    list-style: none;
+}
+
+header div li{
+    padding: 0 0.5rem;
+}
+
+/* conteudo ================================================================ */
+
+#container {
+    background: rgb(15, 121, 15);
+}
+
+#text {
+    color: white;
+    z-index: 1;
+    position: relative;
+    top: 10vh;
+    width: min(90%, 1500px);
+}
+
+#text h2 {
+    width: fit-content;
+}
+
+#text p {
+    width: fit-content;
+}
+
+#hatake{
+    position: relative;
+    bottom: 1rem;
+    overflow-x: auto;
+    width: min(90%, 1500px);
+}
+
+/* Fim ================================================================ */
+
+footer {
+    background: #102901;
+    color: white;
+    text-align: center;
+    position: relative;
+}
